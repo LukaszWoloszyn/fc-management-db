@@ -33,15 +33,11 @@ Oraz techonolgii:
 
 # Baza danych
 
-![Obraz zawierający tekst, diagram, zrzut ekranu, numer
-
-Opis wygenerowany automatycznie]
+![Wygląd aplikacji](img/erd.png)
 
 Połączenie z bazą danych:
 
-![Obraz zawierający tekst, zrzut ekranu, numer, Równolegle
-
-Opis wygenerowany automatycznie]
+![Wygląd aplikacji](img/connect.png)
 
 **Username**: DB_klub
 
@@ -164,9 +160,8 @@ Procedura dodaje nowy rekord do tabeli DRUŻYNY, zawierający nazwę drużyny or
 
 Procedura jest tworzona za pomocą następującej instrukcji SQL:
 
-![Obraz zawierający tekst, zrzut ekranu, wyświetlacz, Czcionka
+![Wygląd aplikacji](img/add_team.png)
 
-Opis wygenerowany automatycznie]
 Opis kroków:
 
 - **INSERT INTO DRUŻYNY**: Procedura wstawia nowy rekord do tabeli DRUŻYNY przy użyciu wartości przekazanych jako parametry.
@@ -174,9 +169,7 @@ Opis kroków:
 
 Kod w PHP:
 
-![Obraz zawierający tekst, zrzut ekranu, Czcionka
-
-Opis wygenerowany automatycznie]
+![Wygląd aplikacji](img/add_team_php.png)
 
 POBIERZ_DRUŻYNĘ
 
@@ -192,9 +185,7 @@ Procedura pobiera rekord z tabeli DRUŻYNY na podstawie przekazanego identyfikat
 
 Procedura jest tworzona za pomocą następującej instrukcji SQL:
 
-![Obraz zawierający tekst, zrzut ekranu, wyświetlacz, oprogramowanie
-
-Opis wygenerowany automatycznie]
+![Wygląd aplikacji](img/get_team.png)
 
 Opis kroków:
 
@@ -203,9 +194,8 @@ Opis kroków:
 
 Kod w PHP:
 
-![Obraz zawierający tekst, zrzut ekranu, Czcionka
+![Wygląd aplikacji](img/get_team_php.png)
 
-Opis wygenerowany automatycznie]
 
 USUŃ_DRUŻYNĘ
 
@@ -221,9 +211,8 @@ Procedura usuwa istniejący rekord w tabeli DRUŻYNY na podstawie przekazanego i
 
 Procedura jest tworzona za pomocą następującej instrukcji SQL:
 
-![Obraz zawierający tekst, zrzut ekranu, wyświetlacz, oprogramowanie
+![Wygląd aplikacji](img/delete_team.png)
 
-Opis wygenerowany automatycznie]
 
 Opis kroków:
 
@@ -232,9 +221,8 @@ Opis kroków:
 
 Kod w PHP:
 
-![Obraz zawierający tekst, zrzut ekranu, Czcionka
+![Wygląd aplikacji](img/delete_team_php.png)
 
-Opis wygenerowany automatycznie]
 AKTUALIZUJ_DRUŻYNĘ
 
 Procedura aktualizuj_drużynę w bazie danych została zaprojektowana w celu umożliwienia aktualizacji istniejących drużyn w systemie na podstawie ich identyfikatora. Procedura ta przyjmuje trzy parametry wejściowe: identyfikator drużyny (p_id), nową nazwę drużyny (p_nowa_nazwa) oraz nową kategorię drużyny (p_nowa_kategoria).
@@ -251,9 +239,8 @@ Procedura aktualizuje istniejący rekord w tabeli DRUŻYNY na podstawie przekaza
 
 Procedura jest tworzona za pomocą następującej instrukcji SQL:
 
-![Obraz zawierający tekst, zrzut ekranu, Czcionka, linia
+![Wygląd aplikacji](img/update_team.png)
 
-Opis wygenerowany automatycznie]
 
 Opis kroków:
 
@@ -262,9 +249,8 @@ Opis kroków:
 
 Kod w PHP:
 
-![Obraz zawierający tekst, zrzut ekranu, Czcionka
+![Wygląd aplikacji](img/update_team_php.png)
 
-Opis wygenerowany automatycznie]
 
 **POBIERZ_WSZYSTKIE_DRUŻYNY**
 
@@ -280,7 +266,7 @@ Procedura otwiera kursor dla zapytania, które pobiera wszystkie rekordy z tabel
 
 **Procedura jest tworzona za pomocą następującej instrukcji SQL:**
 
-
+![Wygląd aplikacji](img/get_all_teams.png)
 
 **Opis kroków:**
 
@@ -289,17 +275,15 @@ Procedura otwiera kursor dla zapytania, które pobiera wszystkie rekordy z tabel
 
 Kod w PHP:
 
-![Obraz zawierający tekst, zrzut ekranu, oprogramowanie, Oprogramowanie multimedialne
+![Wygląd aplikacji](img/get_all_teams_php.png)
 
-Opis wygenerowany automatycznie]
 
 W projekcie występuje więcej procedur, które realizują podobne zadania w odniesieniu do innych tabel i funkcji systemu. Każda z tych procedur operuje na danych w sposób analogiczny do wyżej wymienionych przykładów, zapewniając spójność i integralność danych w bazie.
 
 Wszystkie procedury:
 
-![Obraz zawierający tekst, zrzut ekranu, numer, oprogramowanie
+![Wygląd aplikacji](img/all_proc1.png)![Wygląd aplikacji](img/all_proc2.png)
 
-Opis wygenerowany automatycznie]
 ## Funkcje
 
 W projekcie zdefiniowano kilka funkcji, które służą do wykonywania różnych operacji w bazie danych. Poniżej znajduje się opis każdej z funkcji:
@@ -308,68 +292,56 @@ W projekcie zdefiniowano kilka funkcji, które służą do wykonywania różnych
 
 Funkcja **NAJLEPSI_ZAWODNICY** zwraca trzech zawodników z największą liczbą zdobytych goli. Funkcja przetwarza dane z tabeli **STATYSTYKI**, sumując gole dla każdego zawodnika i zwracając rekordy z najwyższymi sumami.
 
-![Obraz zawierający tekst, elektronika, zrzut ekranu, oprogramowanie
+![Wygląd aplikacji](img/best_players.png)
 
-Opis wygenerowany automatycznie]
 
 Kod w PHP:
 
-![Obraz zawierający tekst, zrzut ekranu, oprogramowanie, wyświetlacz
+![Wygląd aplikacji](img/best_players_php.png)
 
-Opis wygenerowany automatycznie]
 **NAJWIECEJ_ASYST**
 
 Funkcja **NAJWIECEJ_ASYST** zwraca zawodnika, który ma najwięcej asyst we wszystkich meczach. Dane są pobierane z tabeli **STATYSTYKI** i sumowane dla każdego zawodnika, po czym zwracany jest zawodnik z najwyższą liczbą asyst.
 
-![Obraz zawierający tekst, elektronika, zrzut ekranu, oprogramowanie
-
-Opis wygenerowany automatycznie]
+![Wygląd aplikacji](img/most_assist.png)
 
 Kod w PHP:
 
-![Obraz zawierający tekst, zrzut ekranu, oprogramowanie
+![Wygląd aplikacji](img/most_assist_php.png)
 
-Opis wygenerowany automatycznie]
 **OBLICZ_BUDZET_DRUZYNY**
 
 Funkcja **OBLICZ_BUDZET_DRUZYNY** oblicza łączny budżet drużyny na podstawie kwot sponsorowania i odejmuje od niej sumę finansów. Pobiera dane z tabeli **SPONSORZY** i sumuje kwoty sponsorowania dla wybranej drużyny.
 
-![Obraz zawierający tekst, zrzut ekranu, oprogramowanie, Strona internetowa
-
-Opis wygenerowany automatycznie]
+![Wygląd aplikacji](img/calculate.png)
 
 Kod w PHP:
 
-![Obraz zawierający tekst, zrzut ekranu, oprogramowanie
+![Wygląd aplikacji](img/calculate_php.png)
 
-Opis wygenerowany automatycznie]
 **POBIERZ_SPONSOROW_FILTR**
 
 Funkcja **POBIERZ_SPONSOROW_FILTR** zwraca listę sponsorów, filtrując je według identyfikatora drużyny. Jeśli identyfikator drużyny jest podany, funkcja zwraca tylko sponsorów przypisanych do tej drużyny; w przeciwnym razie zwraca wszystkich sponsorów.
 
-![Obraz zawierający tekst, zrzut ekranu, oprogramowanie, Ikona komputerowa
+![Wygląd aplikacji](img/get_sponsor.png)
 
-Opis wygenerowany automatycznie]
 **POBIERZ_STATYSTYKI_FILTR**
 
 Funkcja **POBIERZ_STATYSTYKI_FILTR** zwraca statystyki zawodników, filtrując je według daty meczu. Funkcja przetwarza dane z tabel **STATYSTYKI** i **HARMONOGRAM**, zwracając statystyki dla meczów rozegranych w określonym dniu.
 
-![Obraz zawierający tekst, zrzut ekranu, oprogramowanie, Strona internetowa
+![Wygląd aplikacji](img/get_stats.png)
 
-Opis wygenerowany automatycznie]
 
 Kod w PHP:  
-![Obraz zawierający tekst, zrzut ekranu
+![Wygląd aplikacji](img/get_stats_php.png)
 
-Opis wygenerowany automatycznie]
 
 **POBIERZ_ZAWODNIKOW_FILTR**
 
 Funkcja **POBIERZ_ZAWODNIKOW_FILTR** zwraca listę zawodników, filtrując ich według identyfikatora drużyny. Jeśli identyfikator drużyny jest podany, funkcja zwraca tylko zawodników przypisanych do tej drużyny; w przeciwnym razie zwraca wszystkich zawodników.
 
-![Obraz zawierający tekst, elektronika, zrzut ekranu, oprogramowanie
+![Wygląd aplikacji](img/get_player.png)
 
-Opis wygenerowany automatycznie]
 
 ## Triggery
 
@@ -379,9 +351,7 @@ W projekcie zdefiniowano wiele triggerów, które są używane do różnych cel�
 
 Ten trigger jest odpowiedzialny za automatyczne przypisywanie wartości dla kolumny ID w tabeli **DRUZYNY** przed każdą operacją wstawiania nowego rekordu. Dzięki temu nie ma potrzeby ręcznego ustawiania wartości dla klucza głównego, co ułatwia zarządzanie danymi i zapewnia unikalność identyfikatorów.
 
-![Obraz zawierający tekst, zrzut ekranu, oprogramowanie, Ikona komputerowa
-
-Opis wygenerowany automatycznie]
+![Wygląd aplikacji](img/trigger_team.png)
 
 **Opis działania:**
 
@@ -400,9 +370,8 @@ Ten trigger zapewnia, że każdy nowy rekord w tabeli **DRUZYNY** otrzymuje unik
 
 Wszystkie triggery:
 
-![Obraz zawierający tekst, zrzut ekranu, numer, oprogramowanie
+![Wygląd aplikacji](img/all_triggers.png)
 
-Opis wygenerowany automatycznie]
 ## Sekwencje
 
 W projekcie wykorzystano wiele sekwencji, które służą do generowania unikalnych wartości identyfikatorów dla różnych tabel. Poniżej znajduje się opis jednej z sekwencji oraz przykład jej użycia.
@@ -411,30 +380,25 @@ Przykład sekwencji: **DRUZYNY_SEQ**
 
 Sekwencja **DRUZYNY_SEQ** jest używana do generowania unikalnych identyfikatorów dla tabeli **DRUZYNY**. Poniżej znajdują się szczegóły tej sekwencji:
 
-![Obraz zawierający tekst, elektronika, zrzut ekranu, oprogramowanie
-
-Opis wygenerowany automatycznie]
+![Wygląd aplikacji](img/team_seq.png)
 
 Wszystkie sekwencje:
 
-![Obraz zawierający tekst, zrzut ekranu, numer, Czcionka
+![Wygląd aplikacji](img/all_seq.png)
 
-Opis wygenerowany automatycznie]
 Każda z tych sekwencji pełni podobną funkcję, generując unikalne identyfikatory dla odpowiednich tabel w bazie danych.
 
 Sekwencje te są kluczowe dla zapewnienia integralności danych i unikalności identyfikatorów, co jest niezbędne w systemach zarządzania bazami danych.
 
 # GUI
 
-![Obraz zawierający tekst, zrzut ekranu, osoba
+![Wygląd aplikacji](img/gui1.png)
 
-Opis wygenerowany automatycznie]
 
 Główny widok strony po uruchomieniu aplikacji. Do logowania przechodzimy poprzez wciśnięciu przycisku w prawym górnym rogu.
 
-![Obraz zawierający tekst, zrzut ekranu, oprogramowanie, Czcionka
+![Wygląd aplikacji](img/gui2.png)
 
-Opis wygenerowany automatycznie]
 
 Panel logowania dla admina strony. W pola wpisujemy odpowiednie dane i wciskamy przycisk „Zaloguj".
 
@@ -445,111 +409,187 @@ Przykładowe logowanie dla admina:
 
 Drużyny:
 
-![Obraz zawierający tekst, zrzut ekranu, logo, oprogramowanie
+!![Wygląd aplikacji](img/gui3.png)
 
-Opis wygenerowany automatycznie]
 
 Strona „drużyny", w której wyświetlane są informacje o każdej drużynie, która należy do klubu.
 
-![Obraz zawierający tekst, zrzut ekranu, oprogramowanie, Ikona komputerowa
-
-Opis wygenerowany automatycznie]
+![Wygląd aplikacji](img/gui4.png)
 
 Widok strony „drużyny" dla osoby zalogowanej. Może ona dodać nową drużynę, edytować informacje o istniejącej lub usunąć zespół.
 
-![Obraz zawierający tekst, zrzut ekranu, Czcionka, oprogramowanie
-
-Opis wygenerowany automatycznie]
+![Wygląd aplikacji](img/gui5.png)
 
 Edycja.
 
-![Obraz zawierający tekst, zrzut ekranu, Czcionka, oprogramowanie
+![Wygląd aplikacji](img/gui6.png)
 
-Opis wygenerowany automatycznie]
 Dodawanie.
 
 Finanse:
 
-![Obraz zawierający tekst, zrzut ekranu, logo, Strona internetowa
+![Wygląd aplikacji](img/gui7.png)
 
-Opis wygenerowany automatycznie]
 Strona „finanse", w której pojawiają się informacje o przychodach lub wydatkach w danym zespole.
 
 Budżet:
 
-![Obraz zawierający tekst, zrzut ekranu, logo, oprogramowanie
-
-Opis wygenerowany automatycznie]
+![Wygląd aplikacji](img/gui8.png)
 
 Strona „budżet", w której wyświetlane są informacje o stanie budżetu wszystkich zespołów. Kwota obliczana jest na podstawie sumowania i odejmowania przychodów i wydatków.
 
-![Obraz zawierający tekst, zrzut ekranu, oprogramowanie, Ikona komputerowa
-
-Opis wygenerowany automatycznie]
+![Wygląd aplikacji](img/gui9.png)
 
 Panel edycji/usuwania i dodawania finansów.
 
-![Obraz zawierający tekst, zrzut ekranu, oprogramowanie, Czcionka
-
-Opis wygenerowany automatycznie]
+![Wygląd aplikacji](img/gui10.png)
 
 Edycja.
 
-![Obraz zawierający tekst, zrzut ekranu, oprogramowanie, System operacyjny
+![Wygląd aplikacji](img/gui11.png)
 
-Opis wygenerowany automatycznie]
+Dodawanie.
 
-Strona „treningi", w której mamy możliwość sprawdzenia daty oraz miejsca treningu dla drużyn.
+Harmonogram:
 
-![Obraz zawierający tekst, zrzut ekranu, oprogramowanie, Ikona komputerowa
+![Wygląd aplikacji](img/gui12.png)
 
-Opis wygenerowany automatycznie]
+Strona „harmonogram”, w której wyświetlane są informacje na temat nadchodzących i rozegranych już meczów. Podana jest data, jaka drużyna i w jakich rozgrywkach będzie rozgrywane dane spotkanie oraz liczba goli zdobytych przez drużynę w dany meczu.
+
+
+![Wygląd aplikacji](img/gui13.png)
 
 Panel edycji/usuwania.
 
-![Obraz zawierający tekst, zrzut ekranu, oprogramowanie, System operacyjny
-
-Opis wygenerowany automatycznie]
+![Wygląd aplikacji](img/gui14.png)
 
 Edycja.
 
-![Obraz zawierający tekst, zrzut ekranu, oprogramowanie, System operacyjny
+![Wygląd aplikacji](img/gui15.png)
 
-Opis wygenerowany automatycznie]
+Dodawanie.
+
+Pracownicy:
+
+![Wygląd aplikacji](img/gui16.png)
+
+Strona „pracownicy”, która wyświetla informacje o pracownikach będących w klubie oraz do w jakiej drużynie pracują.
+
+![Wygląd aplikacji](img/gui17.png)
+
+Panel edycji/usuwania.
+
+![Wygląd aplikacji](img/gui18.png)
+
+Edycja.
+
+![Wygląd aplikacji](img/gui19.png)
+
+Dodawanie.
+
+Rozgrywki:
+
+![Wygląd aplikacji](img/gui20.png)
+
+Strona „rozgrywki”, w której podane są informacje w jakich rozgrywkach drużyny biorą udział w danym sezonie oraz ich czas trwania.
+
+![Wygląd aplikacji](img/gui21.png)
+
+Panel edycji/usuwania.
+
+![Wygląd aplikacji](img/gui22.png)
+
+Edycja.
+
+![Wygląd aplikacji](img/gui23.png)
+
+Dodawanie.
+
+Sponsorzy:
+
+![Wygląd aplikacji](img/gui24.png)
+
+Strona „sponsorzy”, która wyświetla informacje o sponsorach oraz kwotach jakimi zasilają dany zespół.
+
+![Wygląd aplikacji](img/gui25.png)
+
+Panel edycji/usuwania.
+
+![Wygląd aplikacji](img/gui26.png)
+
+Edycja.
+
+![Wygląd aplikacji](img/gui27.png)
+
+Dodawanie.
+
+Statystyki:
+
+![Wygląd aplikacji](img/gui28.png)
+
+Strona „statystyki”, w której widnieją informacje na temat bramek, asyst oraz zdobytych kartek w danym meczu przez danego zawodnika. Strona posiada także filtr statystyk.
+
+![Wygląd aplikacji](img/gui29.png)
+
+Mamy możliwość sprawdzenia najlepszych strzelców zespołu, gdzie dane w tabeli pobierane są z tabeli STATYSTYKI.
+
+![Wygląd aplikacji](img/gui30.png)
+
+Podobnie jak w przypadku goli, możemy także sprawdzić najlepiej asystujących zawodników.
+
+![Wygląd aplikacji](img/gui31.png)
+![Wygląd aplikacji](img/gui32.png)
+
+Panel edycji/usuwania.
+
+![Wygląd aplikacji](img/gui33.png)
+
+Edycja.
+
+![Wygląd aplikacji](img/gui34.png)
+
+Dodawanie.
+
+Treningi:
+
+![Wygląd aplikacji](img/gui35.png)
+
+Strona „treningi”, w której mamy możliwość sprawdzenia daty oraz miejsca treningu dla drużyn.
+
+![Wygląd aplikacji](img/gui36.png)
+
+Panel edycji/usuwania.
+
+![Wygląd aplikacji](img/gui37.png)
+
+Edycja.
+
+![Wygląd aplikacji](img/gui38.png)
 
 Dodawanie.
 
 Zawodnicy:
 
-![Obraz zawierający tekst, zrzut ekranu, logo, godło
+![Wygląd aplikacji](img/gui39.png)
 
-Opis wygenerowany automatycznie]
+Strona „zawodnicy”, w której widnieją informacje o zawodnikach takie jak imię i nazwisko, wiek, pozycja oraz do której drużyny przynależy dany zawodnik.
 
-Strona „zawodnicy", w której widnieją informacje o zawodnikach takie jak imię i nazwisko, wiek, pozycja oraz do której drużyny przynależy dany zawodnik.
-
-![Obraz zawierający tekst, Strona internetowa, oprogramowanie, zrzut ekranu
-
-Opis wygenerowany automatycznie]
+![Wygląd aplikacji](img/gui40.png)
 
 Mamy możliwość filtrowania zawodników względem drużyn, do których przynależą.
 
-![Obraz zawierający tekst, zrzut ekranu, oprogramowanie, Ikona komputerowa
-
-Opis wygenerowany automatycznie]
+![Wygląd aplikacji](img/gui41.png)
 
 Panel edycji/usuwania również posiada filtr, który ułatwia pracę adminowi.
 
-![Obraz zawierający tekst, zrzut ekranu, oprogramowanie, Czcionka
-
-Opis wygenerowany automatycznie]
+![Wygląd aplikacji](img/gui42.png)
 
 Edycja.
 
-![Obraz zawierający tekst, zrzut ekranu, oprogramowanie, Strona internetowa
-
-Opis wygenerowany automatycznie
+![Wygląd aplikacji](img/gui43.png)
 
 Dodawanie.
+
 
 # Funkcjonalności aplikacji
 
