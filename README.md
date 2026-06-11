@@ -323,7 +323,7 @@ Kod w PHP:
 
 Funkcja **POBIERZ_SPONSOROW_FILTR** zwraca listę sponsorów, filtrując je według identyfikatora drużyny. Jeśli identyfikator drużyny jest podany, funkcja zwraca tylko sponsorów przypisanych do tej drużyny; w przeciwnym razie zwraca wszystkich sponsorów.
 
-![Wygląd aplikacji](img/get_sponsor.png)
+![Wygląd aplikacji](img/get_sponsor_php.png)
 
 **POBIERZ_STATYSTYKI_FILTR**
 
