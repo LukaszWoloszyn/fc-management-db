@@ -1,42 +1,8 @@
 
 **Praca projektowa bazy danych**
 
-System zarządzania klubem piłkarskim
+**System zarządzania klubem piłkarskim**
 
-Prowadzący: Autorzy:
-
-dr. inż. Piotr Grochowalski Łukasz Wołoszyn  
-nr. albumu: 125172
-
-Informatyka, grupa lab. 3
-
-Rzeszów 2024
-
-Spis treści
-
-[Wstęp 3](#_Toc168864503)
-
-[Narzędzia i technologie 4](#_Toc168864504)
-
-[Baza danych 4](#_Toc168864505)
-
-[Tabele 6](#_Toc168864506)
-
-[Relacje między tabelami 7](#_Toc168864507)
-
-[Procedury 8](#_Toc168864508)
-
-[Funkcje 15](#_Toc168864509)
-
-[Triggery 21](#_Toc168864510)
-
-[Sekwencje 22](#_Toc168864511)
-
-[GUI 24](#_Toc168864512)
-
-[Funkcjonalności aplikacji 45](#_Toc168864513)
-
-[Źródła 48](#_Toc168864514)
 
 # Wstęp
 
