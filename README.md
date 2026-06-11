@@ -1,0 +1,1 @@
+Baza danych dla klubu sportowego będzie odpowiedzialna za przechowywanie danych o zawodnikach, pracownikach, drużynach (główna, u-21, juniorzy itd.), harmonogramach i wynikach meczów i statystykach. System ten umożliwi skuteczne planowanie działań sportowych oraz śledzenie finansów klubu. 
