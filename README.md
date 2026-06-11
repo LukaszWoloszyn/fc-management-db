@@ -303,11 +303,11 @@ Kod w PHP:
 
 Funkcja **NAJWIECEJ_ASYST** zwraca zawodnika, który ma najwięcej asyst we wszystkich meczach. Dane są pobierane z tabeli **STATYSTYKI** i sumowane dla każdego zawodnika, po czym zwracany jest zawodnik z najwyższą liczbą asyst.
 
-![Wygląd aplikacji](img/most_assist.png)
+![Wygląd aplikacji](img/most_assists.png)
 
 Kod w PHP:
 
-![Wygląd aplikacji](img/most_assist_php.png)
+![Wygląd aplikacji](img/most_assists.png)
 
 **OBLICZ_BUDZET_DRUZYNY**
 
